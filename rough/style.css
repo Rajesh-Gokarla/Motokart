@@ -1,0 +1,219 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.base{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right bottom , rgba(76, 0, 39, 0.3), rgba(0,0,0,0.3)),url(chevrolet.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: cover;
+}
+
+
+.top-navbar{
+    height: 55px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 0% 0% ;
+    /* background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); */
+    /* border: .5px solid rgba(255,255, 255, 0.3); */
+    padding: 5px;
+    /* top: 5px; */
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+
+}
+
+
+.top-navbar-bg{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 60%;
+    height: 65px;
+    background: linear-gradient(to left , rgba(255, 255, 255,0.09), transparent);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transform: skewX(45deg) translateX(0);    
+    /* transition: 0.5s; */
+}
+
+
+.top-navbar-div1{
+    display: flex;
+}
+
+.top-navbar-div2{
+    width: 70%;
+}
+
+.top-navbar-div3{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+}
+
+.search-icon {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.account-icon
+{
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.nav-opt{
+    color: white;
+    padding: 10px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.logo-img{
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+    padding: 1px;
+}
+
+
+
+
+
+.label{
+    color: white;
+    padding: 10px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+
+
+.form-box{
+    height: 460px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10% 4% ;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border: 0.5px solid rgba(255,255, 255, 0.3);
+    padding: 5px;
+    left: 70%;
+    top: 2%;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+}
+
+
+/* .cont{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(to left , rgba(255, 255, 255,0.09), transparent);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transform: skewX(45deg) translateX(0);    
+    transition: 0.5s; 
+} */
+
+.logo{
+    align-items: center;
+    padding: 10px;
+    display: flex;
+}
+
+.label1{
+    color: aquamarine;
+}
+
+
+.button-box{
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2rem);
+    border: none;
+}
+
+.toggle-btn{
+    margin: auto;
+    width: 49%;
+    padding: 10px 10px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+}
+
+.logo-img1{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+/* .toggle-btn:nth-child(1){
+    color: black;
+} */
+/* ^^^ Does not work. reason unknown  */
+
+#butn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    border: none;
+    width: 49%;
+    height: 100%;
+    background: linear-gradient(to left bottom , rgba(255,255,255,0.25), rgba(255,255,255,0.56));
+    border-radius: 10px;
+    backdrop-filter: blur(80px);
+    /* transition: 0.5s; */
+}
+
+.form-1{
+    top: 120px;
+    left: 20px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+    margin: 10px 0;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 10px 0;
+    border-radius: 100px;
+    outline: none;
+    background: linear-gradient(to left bottom , rgba(255,255,255,0.25), rgba(255,255,255,0.56));
+}
+
