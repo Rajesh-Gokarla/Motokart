@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to right bottom , rgba(76, 0, 39, 0.3), rgba(0,0,0,0.3)),url(chevrolet.jpg);
+    background-image: linear-gradient(to right bottom , rgba(76, 0, 39, 0.3), rgba(0,0,0,0.3)),url(images/chevrolet.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: absolute;
